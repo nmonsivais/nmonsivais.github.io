@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacts</title>
+    <title>Contact</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 
@@ -23,14 +23,41 @@
           <a class="nav-link" href="portfolio.html">Portfolio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="contact.html">Contacts</a>
+          <a class="nav-link active" href="contact.html">Contact Me</a>
         </li>
       </ul>
   </nav> 
 </header>
     
 <Main>
-  <body class="p-3 mb-2 bg-secondary text-white">Erase Text When Finished</body>
+  <body class="p-3 mb-2 bg-secondary text-white"></body>
+
+  <form>
+    <div class="form-group">
+      <label for="exampleFormControlInput1">First and Last Name + (prefered pronoun)</label>
+      <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="John Carmack (he)">
+    </div>
+    <div class="form-group">
+      <label for="exampleFormControlInput1">Enter your e-mail address</label>
+      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+    </div>
+    <div class="form-group">
+      <label for="exampleFormControlSelect1">Click on a reason for contact from the drop-down menu on the right.</label>
+      <select class="form-control" id="exampleFormControlSelect1">
+        <option>Question or concern</option>
+        <option>Speech at my event</option>
+        <option>Fan mail</option>
+        <option>Suggestion</option>
+        <option>Other</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="exampleFormControlTextarea1">Type details surrounding your reason for contact.</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Example: Date, type/time of event, preferred method of contact, urgency, etc..."></textarea>
+    
+    </div>
+  </form>
 
 </Main>
 </class>
