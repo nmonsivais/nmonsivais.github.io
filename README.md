@@ -6,7 +6,10 @@ This website will house my portfolio.  It will be updated as I complete new proj
 @nmonsivais
 
 # Technology
-HTML, CSS, Bootstrap
+HTML, JavaScript, BootStrap
+
+# Live Link
+[View Page Live](https://nmonsivais.github.io/)
 
 # Contact
 [E-Mail](Mailto:nmonsivais@gmail.com) |
